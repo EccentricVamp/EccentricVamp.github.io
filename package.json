@@ -14,7 +14,7 @@
         "@astrojs/tailwind": "^2.0.2",
         "@tailwindcss/typography": "^0.5.7",
         "astro": "^1.4.4",
-        "astro-default-layout": "^2.0.0",
+        "astro-default-layout": "^2.0.1",
         "tailwindcss": "^3.0.24"
     }
 }
