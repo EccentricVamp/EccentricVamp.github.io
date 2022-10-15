@@ -15,11 +15,4 @@ export type Frontmatter = {
 export const EDIT_URL = `https://github.com/EccentricVamp/eccentricvamp.github.io/tree/main`;
 
 export type Sidebar = Record<string, { text: string; link: string }[]>;
-export const SIDEBAR: Sidebar = {
-	'Section Header': [
-		{ text: 'Introduction', link: '' },
-		{ text: 'Page 2', link: 'page-2' },
-		{ text: 'Page 3', link: 'page-3' },
-	],
-	'Another Section': [{ text: 'Page 4', link: 'page-4' }],
-};
+export const SIDEBAR: Sidebar = {};
