@@ -15,4 +15,8 @@ export type Frontmatter = {
 export const EDIT_URL = `https://github.com/EccentricVamp/eccentricvamp.github.io/tree/main`;
 
 export type Sidebar = Record<string, { text: string; link: string }[]>;
-export const SIDEBAR: Sidebar = {};
+export const SIDEBAR: Sidebar = {
+	'Minecraft': [
+		{ text: 'Getting Started', link: 'minecraft/getting-started' },
+	],
+};
